@@ -1,0 +1,26 @@
+.carousel-wrap {
+  margin: 90px auto;
+  padding: 0 5%;
+  width: 80%;
+  position: relative;
+}
+.owl-carousel .item {
+  position: relative; /* fix blank or flashing items on carousel */
+  z-index: 100; /* fix blank or flashing items on carousel */
+  -webkit-backface-visibility: hidden; /* fix blank or flashing items on carousel */
+}
+.owl-nav > div {
+  margin-top: -26px;
+  position: absolute;
+  top: 50%;
+  color: #cdcbcd;
+}
+.owl-nav i {
+  font-size: 52px;
+}
+.owl-nav .owl-prev {
+  left: -30px;
+}
+.owl-nav .owl-next {
+  right: -30px;
+}
